@@ -1,7 +1,8 @@
-package com.pmihail.fallgame
+package com.pmihail.fallgame.activitys
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.pmihail.fallgame.R
 
 class MainActivity : AppCompatActivity() {
 

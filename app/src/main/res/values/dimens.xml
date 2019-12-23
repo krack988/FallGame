@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="offset_micro">4dp</dimen>
+    <dimen name="offset_small">8dp</dimen>
+    <dimen name="offset_little">12dp</dimen>
+    <dimen name="offset_medium">16dp</dimen>
+    <dimen name="offset_large">32dp</dimen>
+
+    <dimen name="font_size_micro">12sp</dimen>
+    <dimen name="font_size_small">14sp</dimen>
+    <dimen name="font_size_little">16sp</dimen>
+    <dimen name="font_size_medium">18sp</dimen>
+    <dimen name="font_size_large">22sp</dimen>
+
+</resources>
