@@ -20,7 +20,9 @@
         </activity>
 
         <activity android:name=".activitys.MainActivity"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait">
+            <nav-graph android:value="@navigation/navigation" />
+        </activity>
     </application>
 
 </manifest>
