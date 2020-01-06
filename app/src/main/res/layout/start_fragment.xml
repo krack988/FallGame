@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/offset_medium">
 
     <TextView
         android:id="@+id/text"
@@ -12,5 +14,12 @@
         android:textColor="@android:color/black"
         android:textSize="22sp"
         android:text="HELLO WORLD"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_text"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
