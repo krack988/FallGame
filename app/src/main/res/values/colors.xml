@@ -6,4 +6,13 @@
 
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
+
+    <color name="colorBlue">#034cbd</color>
+    <color name="colorBlueLight">#41e2ff</color>
+    <color name="colorYellow">#ecc508</color>
+    <color name="colorYellowLight">#f8eb44</color>
+    <color name="colorYellowDark">#a3542d</color>
+    <color name="colorBackground">#343c4f</color>
+    <color name="colorBackgroundDark">#242b3b</color>
+    <color name="colorBackgroundLight">#6c5c83</color>
 </resources>

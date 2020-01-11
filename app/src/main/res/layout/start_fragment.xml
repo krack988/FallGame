@@ -4,6 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/main_gradient_background"
     android:padding="@dimen/offset_medium">
 
     <TextView
@@ -17,8 +18,13 @@
 
     <Button
         android:id="@+id/btnNext"
-        android:layout_width="match_parent"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
         android:text="@string/start_text"
         android:layout_alignParentBottom="true"/>
 
