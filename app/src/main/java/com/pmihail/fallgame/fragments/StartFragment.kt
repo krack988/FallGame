@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
 import com.pmihail.fallgame.R
 import kotlinx.android.synthetic.main.start_fragment.*
@@ -21,7 +23,8 @@ class StartFragment: Fragment() {
         val view = inflater.inflate(R.layout.start_fragment, container, false)
         val btnNext = view.findViewById<Button>(R.id.btnNext)
         btnNext.setOnClickListener {
-            findNavController().navigate(R.id.detailsFragment)
+//            findNavController().navigate(R.id.detailsFragment)
+            Navigation.findNavController(view).navigate(R.id.detailsFragment)
         }
 
         return view
