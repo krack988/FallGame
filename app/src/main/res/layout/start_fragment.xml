@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,18 +8,28 @@
     android:padding="@dimen/offset_medium">
 
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/questionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_size_large"
+        android:textColor="@android:color/white"
         android:textSize="22sp"
-        android:text="HELLO WORLD"/>
+        tools:text="Hello world" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/questionList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/marginList"
+        android:layout_below="@+id/questionText"/>
 
     <Button
         android:id="@+id/btnNext"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:background="@drawable/rounded_button"
