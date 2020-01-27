@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/font_size_large"
+        android:layout_marginTop="@dimen/offset_large"
+        android:layout_marginBottom="@dimen/offset_large"
         android:textColor="@android:color/white"
         android:textSize="22sp"
         tools:text="Hello world" />
@@ -24,6 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginTop="@dimen/marginList"
+        android:layout_above="@+id/btnNext"
         android:layout_below="@+id/questionText"/>
 
     <Button
@@ -35,6 +37,7 @@
         android:background="@drawable/rounded_button"
         android:textColor="@color/colorWhite"
         android:textSize="25sp"
+        android:layout_marginTop="@dimen/offset_medium"
         android:text="@string/start_text"
         android:layout_alignParentBottom="true"/>
 

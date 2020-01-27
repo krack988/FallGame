@@ -10,7 +10,7 @@ import com.pmihail.fallgame.R
 class CardAdapter(
     private val withHeader: Boolean = false
 ) : RecyclerView.Adapter<ViewHolder>() {
-    override fun getItemCount() = 64
+    override fun getItemCount() = 4
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = if (viewType == 0) {
         ViewHolder(parent.inflate(R.layout.row_header))
     } else {
