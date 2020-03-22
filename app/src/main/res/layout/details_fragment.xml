@@ -7,16 +7,28 @@
     android:layout_height="match_parent"
     android:background="@drawable/main_gradient_background">
 
-    <ImageView
-        android:id="@+id/bImg"
+<!--    <ImageView-->
+<!--        android:id="@+id/bImg"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        android:src="@drawable/first"-->
+<!--        app:layout_constraintTop_toTopOf="parent"/>-->
+
+    <ImageSwitcher
+        android:id="@+id/imageSwitcher"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/first"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
-<!--    <ImageView-->
+    <!--    <ImageView-->
 <!--        android:id="@+id/imgBackgroundDetails"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="match_parent"-->

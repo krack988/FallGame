@@ -9,6 +9,8 @@ import com.pmihail.fallgame.R
 
 class DetailsFragment: Fragment() {
 
+    var imageArray = arrayListOf(R.drawable.first, R.drawable.second, R.drawable.threed, R.drawable.four)
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
